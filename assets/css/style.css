@@ -7,7 +7,7 @@
 }
 
 :root {
-    --cor-azul: #0271F7;
+    --cor-azul: #0456bb;
     --cor-azul-claro: #8fbff8;
     --cor-azul-pastel: #d3ffff;
     --cor-white: #fff;
@@ -17,7 +17,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: ' pixel', serif;
+    font-family: 'Pixel';
     background-color: var(--cor-black);
 }
 
@@ -49,7 +49,6 @@ header .logo {
 header .title {
     color: var(--cor-white);
     text-transform: uppercase;
-    font-family: '04B'sans-serif;
     font-size: 3.5rem;
     -webkit-text-stroke: 0.13rem var(--cor-azul);
     text-align: center;
