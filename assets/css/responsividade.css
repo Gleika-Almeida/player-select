@@ -1,0 +1,53 @@
+@media (max-width: 375px) {
+
+
+
+    body::before {
+        content: ' ';
+        background: #eb322b;
+        height: 100vh;
+        
+    }
+
+    header {
+        padding: 5px 10px;
+    }
+
+    main {
+        padding-top: 1rem;
+        flex-direction: column;
+    }
+
+    header .title {
+        font-size: 2rem;
+    }
+
+    .select-Player {
+        width: 100%;
+    }
+
+    .players-List {
+        justify-content: center;
+        gap: 0.625rem;
+    }
+
+    section .players-List .player {
+        height: 4rem;
+    }
+
+    .main-Character {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .main-Character img {
+        width: 250px;
+    }
+
+    section .name {
+        font-size: 1.5rem;
+        bottom: 0.625rem;
+        -webkit-text-stroke: 0;
+    }
+
+}
